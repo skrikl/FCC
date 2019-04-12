@@ -2,9 +2,9 @@
     width: 100vw;
     background: url(https://i.pinimg.com/originals/8c/29/10/8c2910152800d185e1fa1ee9404334ce.jpg) no-repeat;
     background-size: cover;
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(179, 46, 46);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #574E57;
 }
 .main__container {
     display: flex;
@@ -16,28 +16,26 @@
 .main__header {
     font-size: 4rem;
     font-weight: 700;
+    font-style: italic; 
 }
 .main__header,
 #img-div, 
 #tribute-info {
     text-align: center;
-    width: 75%;
+    width: 65%;
     margin: 0.5rem auto;
-    background-color: rgba(255,105,180, 0.1);
+    background-color: rgba(249,183,197, 0.6);
     padding: 1.5rem;
     border-radius: 1rem;
     text-align: center;
-    border: 1px dashed lightcyan;
+    box-shadow: 0 0 8px 3px rgba(249,183,197, 0.8);
 }
 #image {
     box-sizing: border-box;
-    border: 30px solid rgba(255,105,180, 0.3);
     max-width: 100%;
     display: block;
     height: auto;
     margin: 0 auto;
     border-radius: 10rem;
-}
-#img-div {
-    width: 75%;
+    box-shadow: 0 0 28px 30px rgba(249,183,197, 0.9);
 }
